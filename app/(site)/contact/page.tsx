@@ -15,11 +15,11 @@ export default function ContactPage() {
           <li>
             Email:{" "}
             <a className="underline" href="mailto:support@example.com">
-              support@example.com
+              info@adople.com
             </a>
           </li>
           <li>Hours: Mon–Fri, 9:00–17:00 (local time)</li>
-          <li>Address: 123 Market Street, Suite 100, Remote City</li>
+          <li>Address: 9/11, First Floor, Chinniah Pillai Road, Maravaneri...</li>
         </ul>
       </section>
 

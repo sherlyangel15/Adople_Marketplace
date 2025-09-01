@@ -426,6 +426,9 @@ export default function DealsPage() {
               <p className={`${themeClasses.textMuted} text-sm mb-4`}>
                 Adople AI is your all-in-one AI-powered marketplace for software, courses, and business tools — helping you discover, analyze, and grow smarter.
               </p>
+              <Link href="https://adople.ai/" className={`hover:${themeClasses.text}`}>
+                adople.ai
+              </Link>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-4">Account</h4>
@@ -461,7 +464,7 @@ export default function DealsPage() {
               <h4 className="text-lg font-semibold mb-4">Adople AI</h4>
               <ul className={`space-y-2 text-sm ${themeClasses.textMuted}`}>
                 <li>
-                  <Link href="/about" className={`hover:${themeClasses.text}`}>
+                  <Link href="https://adople.ai/about-adople/" className={`hover:${themeClasses.text}`}>
                     About
                   </Link>
                 </li>

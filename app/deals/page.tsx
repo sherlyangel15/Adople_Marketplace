@@ -118,9 +118,9 @@ export default function DealsPage() {
       <header className={`border-b ${themeClasses.headerBorder} px-4 py-3`}>
         <div className="max-w-7xl mx-auto">
           {/* Top banner */}
-          <div className="bg-blue-600 text-white text-center py-2 px-4 rounded mb-4 text-sm">
+          {/* <div className="bg-blue-600 text-white text-center py-2 px-4 rounded mb-4 text-sm">
             Welcome! 10% off is waiting in your cart—sign up. ↗
-          </div>
+          </div> */}
 
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-8">
@@ -140,7 +140,7 @@ export default function DealsPage() {
               </div>
             </div>
             <div className="flex items-center space-x-4">
-              <span className={`text-sm ${themeClasses.textSecondary}`}>Sell on Adople AI</span>
+              {/* <span className={`text-sm ${themeClasses.textSecondary}`}>Sell on Adople AI</span> */}
               <Button variant="ghost" size="sm" onClick={toggleTheme} className="p-2">
                 {isDarkMode ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
               </Button>
@@ -160,22 +160,23 @@ export default function DealsPage() {
           {/* Navigation */}
           <nav className="flex space-x-6 mt-4">
             <Link href="/deals?category=Software" className="hover:text-green-400">
-              Software
+              All Agents
+              {/* Software */}
             </Link>
-            <Link href="/deals?category=Courses" className="hover:text-green-400">
+            {/* <Link href="/deals?category=Courses" className="hover:text-green-400">
               Courses & more
-            </Link>
+            </Link> */}
             <Link href="/deals?status=new" className="hover:text-green-400">
               New arrivals
             </Link>
             <Link href="/deals?status=ending" className="hover:text-green-400">
               Ending soon
             </Link>
-            <div className="ml-auto">
+            {/* <div className="ml-auto">
               <Button className="bg-green-500 hover:bg-green-600 text-black text-sm">
                 🎯 AskAdople AI and get 10% off
               </Button>
-            </div>
+            </div> */}
           </nav>
         </div>
       </header>
@@ -186,7 +187,7 @@ export default function DealsPage() {
           <aside className={`${themeClasses.sidebarBg} w-64 p-6 rounded-lg h-fit`}>
             <div className="space-y-6">
               {/* Shop by */}
-              <div>
+              {/* <div>
                 <h3 className="font-semibold mb-3">Shop by</h3>
                 <ul className="space-y-2 text-sm">
                   {["Software", "Courses", "Templates", "Creative resources"].map((c) => (
@@ -203,23 +204,23 @@ export default function DealsPage() {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div> */}
 
               {/* ADOPLE AI SELECT */}
-              <div className="flex items-center justify-between">
+              {/* <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-2">
                   <Badge className="bg-green-600 text-white">ADOPLE AI SELECT</Badge>
                   <span className="text-sm">?</span>
                 </div>
-              </div>
+              </div> */}
 
               {/* Integrations */}
-              <div>
+              {/* <div>
                 <div className="flex items-center justify-between mb-3">
                   <h3 className="font-semibold">Integrations</h3>
                   <ChevronDown className="w-4 h-4" />
-                </div>
-                <div className="space-y-2 text-sm">
+                </div> */}
+                {/* <div className="space-y-2 text-sm">
                   {["WordPress", "Webflow", "Zapier", "OpenAI", "Slack", "Google Calendar"].map((i) => (
                     <label key={i} className="flex items-center gap-2">
                       <input
@@ -238,9 +239,9 @@ export default function DealsPage() {
                       />
                       <span className={themeClasses.textSecondary}>{i}</span>
                     </label>
-                  ))}
-                </div>
-              </div>
+                  ))} */}
+                {/* </div> */}
+              {/* </div> */}
 
               {/* Plan type */}
               <div>
@@ -315,7 +316,7 @@ export default function DealsPage() {
                   <p className={`${themeClasses.textSecondary}`}>{filtered.length} products</p>
                 </div>
                 {/* inline search updates URL and filter */}
-                <div className="hidden md:flex items-center ml-6">
+                {/* <div className="hidden md:flex items-center ml-6">
                   <Input
                     value={query}
                     onChange={(e) => {
@@ -325,7 +326,7 @@ export default function DealsPage() {
                     placeholder="Search"
                     className={`min-w-[240px] ${themeClasses.inputBg} ${themeClasses.inputBorder} ${themeClasses.text}`}
                   />
-                </div>
+                </div> */}
               </div>
               <div className="flex items-center space-x-2">
                 <span className={`text-sm ${themeClasses.textSecondary}`}>Sort by:</span>
@@ -423,8 +424,7 @@ export default function DealsPage() {
             <div>
               <h4 className="text-lg font-semibold mb-4">ADOPLE AI</h4>
               <p className={`${themeClasses.textMuted} text-sm mb-4`}>
-                Part of the Sumo family since 2010. Adople AI is the #1 digital marketplace to buy software, courses,
-                and tools to grow your business.
+                Adople AI is your all-in-one AI-powered marketplace for software, courses, and business tools — helping you discover, analyze, and grow smarter.
               </p>
             </div>
             <div>

@@ -49,11 +49,12 @@ export default function AppSumoHomepage() {
             </Link>
             <nav className="hidden md:flex space-x-6">
               <Link href="/deals?category=Software" className="hover:text-green-400">
-                Software
+                All Agents
+                {/* Software */}
               </Link>
-              <Link href="/deals?category=Courses" className="hover:text-green-400">
+              {/* <Link href="/deals?category=Courses" className="hover:text-green-400">
                 Courses & tools
-              </Link>
+              </Link> */}
               <Link href="/deals?status=new" className="hover:text-green-400">
                 New arrivals
               </Link>
@@ -160,9 +161,9 @@ export default function AppSumoHomepage() {
                   </Badge>
                 </div>
                 <CardTitle className={themeClasses.text + " mb-2"}>Adople Voice Agent</CardTitle>
-                <p className={`text-sm ${themeClasses.textMuted} mb-2`}>AI Agents</p>
+                <p className={`text-sm ${themeClasses.textMuted} mb-2`}>Document Search</p>
                 <CardDescription className={`${themeClasses.textSecondary} text-sm mb-3`}>
-                 Use it to transforms static documents into dynamic conversations—upload PDFs or other files, ask questions about their content, and get instant, accurate answers powered by intelligent document parsing. Dive into to explore more.
+                 Use it to transforms static documents into dynamic conversations—upload PDFs or other files, ask questions ...
                 </CardDescription>
                 <div className="flex items-center gap-1 mb-3">
                   {[...Array(5)].map((_, i) => (
@@ -202,9 +203,9 @@ export default function AppSumoHomepage() {
                   </Badge>
                 </div>
                 <CardTitle className={themeClasses.text + " mb-2"}>SEC Analysis</CardTitle>
-                <p className={`text-sm ${themeClasses.textMuted} mb-2`}>AI Agents</p>
+                <p className={`text-sm ${themeClasses.textMuted} mb-2`}>Audit Support</p>
                 <CardDescription className={`${themeClasses.textSecondary} text-sm mb-3`}>
-                An AI-driven tool that evaluates the financial status of businesses based on key metrics, trends, and risk indicators. Instantly categorize companies as Stable, Needs Attention, or High Risk to support smarter investment and partnership decisions.                </CardDescription>
+                Use it to evaluate the financial status of your businesses based on key metrics, trends, and risk indicators...</CardDescription>
                 <div className="flex items-center gap-1 mb-3">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
@@ -243,9 +244,9 @@ export default function AppSumoHomepage() {
                   </Badge>
                 </div>
                 <CardTitle className={themeClasses.text + " mb-2"}>Resume Analyzer</CardTitle>
-                <p className={`text-sm ${themeClasses.textMuted} mb-2`}>AI Agents</p>
+                <p className={`text-sm ${themeClasses.textMuted} mb-2`}>Recruitment & HR</p>
                 <CardDescription className={`${themeClasses.textSecondary} text-sm mb-3`}>
-                This tool evaluates resumes against job descriptions, scoring candidates by relevance and fit. Recruiters can instantly sort applicants into categories like Selected, Next Round, or Not Proceeding, streamlining decision-making with speed and clarity.                </CardDescription>
+                Use this tool evaluates resumes against job descriptions and gives a score. Recruiters can ...</CardDescription>
                 <div className="flex items-center gap-1 mb-3">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
@@ -514,8 +515,7 @@ export default function AppSumoHomepage() {
             <div>
               <h4 className="text-lg font-semibold mb-4">ADOPLE AI</h4>
               <p className={`${themeClasses.textMuted} text-sm mb-4`}>
-                Part of the Sumo family since 2010. Adople AI is the #1 digital marketplace to buy software, courses,
-                and tools to grow your business.
+                Adople AI is your all-in-one AI-powered marketplace for software, courses, and business tools — helping you discover, analyze, and grow smarter.
               </p>
             </div>
             <div>

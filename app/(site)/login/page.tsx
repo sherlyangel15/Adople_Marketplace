@@ -26,7 +26,7 @@ export default function LoginPage() {
               </div>
               <div className="grid gap-2">
                 <Label htmlFor="password">Password</Label>
-                <Input id="password" type="password" placeholder="••••••••" required />
+                <Input id="password" type="password" placeholder="Password" required />
               </div>
               <Button className="w-full bg-green-500 hover:bg-green-600 text-black" type="submit">
                 Log in
